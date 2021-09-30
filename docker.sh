@@ -17,3 +17,9 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 
+##-----
+#sudo apt install curl
+#curl -L https://raw.githubusercontent.com/docker/compose-cli/main/scripts/install/install_linux.sh | sh
+#mkdir -p ~/.docker/cli-plugins/
+#curl -SL https://github.com/docker/compose/releases/download/v2.0.0/docker-compose-linux-amd64 -o ~/.docker/cli-plugins/docker-compose
+#chmod +x ~/.docker/cli-plugins/docker-compose
